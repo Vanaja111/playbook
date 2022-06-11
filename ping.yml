@@ -1,0 +1,5 @@
+---
+ - hosts: slave3
+   become: true
+   tasks:
+     - ping
